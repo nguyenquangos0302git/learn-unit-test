@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94b7e598-3e98-44be-86c5-4cf35ecbe2ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/HealthyCoderApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/BMICalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/BMICalculatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/Coder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/DietPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/DietPlanner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/bin/com/healthycoderapp/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/production/HealthyCoderApp/com/healthycoderapp/BMICalculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/production/HealthyCoderApp/com/healthycoderapp/Coder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/production/HealthyCoderApp/com/healthycoderapp/DietPlan.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/production/HealthyCoderApp/com/healthycoderapp/DietPlanner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/production/HealthyCoderApp/com/healthycoderapp/Gender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/com/healthycoderapp/BMICalculatorTest$FindCoderWithWorstBMITests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/com/healthycoderapp/BMICalculatorTest$GetBMIScoresTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/com/healthycoderapp/BMICalculatorTest$IsDietRecommendedTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/com/healthycoderapp/BMICalculatorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/com/healthycoderapp/DietPlannerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/out/test/HealthyCoderApp/diet-recommended-input-data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/ActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/BMICalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/Coder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/DietPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/DietPlanner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/main/java/com/healthycoderapp/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/test/java/com/healthycoderapp/ActivityCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/test/java/com/healthycoderapp/BMICalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/test/java/com/healthycoderapp/DietPlannerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HealthyCoderApp/src/test/resources/diet-recommended-input-data.csv" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2eH8s0wxaiCjJQcU7DKOxIdF6yO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/quangnguyen/Study/learn/learn-unit-test/RealEstateApp/src",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94b7e598-3e98-44be-86c5-4cf35ecbe2ef" name="Changes" comment="" />
+      <created>1711550345639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711550345639</updated>
+      <workItem from="1711550346664" duration="4000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
