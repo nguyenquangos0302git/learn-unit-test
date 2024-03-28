@@ -1,0 +1,17 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬«íÙ
+6
+java:S2111"!Use "BigDecimal.valueOf" instead.(Ø©@
+c	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔğÎÛ
+7
+java:S2111#"!Use "BigDecimal.valueOf" instead.(™”Ç´
+c	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ê•
+<
+java:S21112"!Use "BigDecimal.valueOf" instead.(ô¨ Øûÿÿÿÿ
+<
+java:S21113"!Use "BigDecimal.valueOf" instead.(ª¿º£øÿÿÿÿ
+<
+java:S21114"!Use "BigDecimal.valueOf" instead.(û˜ãƒùÿÿÿÿ
+h	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆÆÓÂûÿÿÿÿ
+A
+java:S5960"+Remove this assertion from production code.(ÌàÜÏ

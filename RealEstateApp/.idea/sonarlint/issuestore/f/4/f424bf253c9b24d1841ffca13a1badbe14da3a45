@@ -1,0 +1,25 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ç‰ˆùÿÿÿÿ
+7
+java:S2111"!Use "BigDecimal.valueOf" instead.(¢ÃŽƒ
+<
+java:S2111 "!Use "BigDecimal.valueOf" instead.(òØÕ£ýÿÿÿÿ
+<
+java:S2111&"!Use "BigDecimal.valueOf" instead.(³ñ¸Çûÿÿÿÿ
+7
+java:S2111'"!Use "BigDecimal.valueOf" instead.(·º¶þ
+7
+java:S21116"!Use "BigDecimal.valueOf" instead.(Ž–»£
+h	java:S100>"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àÖâ²ýÿÿÿÿ
+V
+java:S1117A";Rename "minArea" which hides the field declared at line 53.(ëóŒ²øÿÿÿÿ
+`
+java:S1117C"JRename "minPricePerSquareMeter" which hides the field declared at line 54.(“©´´
+<
+java:S2111D"!Use "BigDecimal.valueOf" instead.(òØÕ£ýÿÿÿÿ
+<
+java:S2111J"!Use "BigDecimal.valueOf" instead.(³ñ¸Çûÿÿÿÿ
+7
+java:S2111K"!Use "BigDecimal.valueOf" instead.(·º¶þ
+A
+java:S5960("+Remove this assertion from production code.(Ú¸Ã“
