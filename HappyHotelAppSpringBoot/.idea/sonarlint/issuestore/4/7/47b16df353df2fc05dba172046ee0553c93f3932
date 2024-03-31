@@ -1,0 +1,17 @@
+
+t
+java:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+R
+java:S1612"<Replace this lambda with method reference 'Entry::getValue'.(•ÔÜÛ
+P
+java:S1612":Replace this lambda with method reference 'Entry::getKey'.(•ÔÜÛ
+N
+java:S1612"8Replace this lambda with method reference 'Room::getId'.(¯¶Ò
+W
+java:S1612""<Replace this lambda with method reference 'Entry::getValue'.(µë©Õşÿÿÿÿ
+U
+java:S1612#":Replace this lambda with method reference 'Entry::getKey'.(ŸëÖùÿÿÿÿ
+U
+java:S1612/":Replace this lambda with method reference 'Entry::getKey'.(ŸëÖùÿÿÿÿ
+U
+java:S16129":Replace this lambda with method reference 'Entry::getKey'.(ŸëÖùÿÿÿÿ
