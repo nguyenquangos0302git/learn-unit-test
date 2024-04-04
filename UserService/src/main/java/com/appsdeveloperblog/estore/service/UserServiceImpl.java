@@ -1,16 +1,18 @@
 package com.appsdeveloperblog.estore.service;
 
 import com.appsdeveloperblog.estore.data.UsersRepository;
-import com.appsdeveloperblog.estore.data.UsersRepositoryImpl;
 import com.appsdeveloperblog.estore.model.User;
 import java.util.UUID;
 
 public class UserServiceImpl implements UserService {
 
     private final UsersRepository usersRepository;
+    private final EmailVerificationService emailVerificationService;
 
-    public UserServiceImpl(UsersRepository usersRepository) {
+    public UserServiceImpl(UsersRepository usersRepository,
+                           EmailVerificationService emailVerificationService) {
         this.usersRepository = usersRepository;
+        this.emailVerificationService = emailVerificationService;
     }
 
     @Override
@@ -38,6 +40,13 @@ public class UserServiceImpl implements UserService {
         }
 
         if (!isUserCreated) throw new UserServiceException("Could not create user");
+
+        try {
+            emailVerificationService.scheduleEmailConfirmation(user);
+        } catch (Exception e) {
+            throw new UserServiceException(e.getMessage());
+        }
+
 
         return user;
 

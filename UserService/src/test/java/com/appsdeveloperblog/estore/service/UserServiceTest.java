@@ -20,8 +20,13 @@ public class UserServiceTest {
 
     @InjectMocks
     UserServiceImpl userService;
+
     @Mock
     UsersRepository usersRepository;
+
+    @Mock
+    EmailVerificationServiceImpl emailVerificationService;
+
     String firstName;
     String lastName;
     String email;
@@ -101,5 +106,36 @@ public class UserServiceTest {
         assertThrows(UserServiceException.class, executable);
     }
 
+    @Test
+    void testCreateUser_WhenEmailNotificationExceptionThrown_ThenThrowsUserServiceException() {
+        // Arrange
+        Mockito.when(usersRepository.save(Mockito.any(User.class))).thenReturn(true);
+        Mockito.doThrow(RuntimeException.class).when(emailVerificationService).scheduleEmailConfirmation(Mockito.any(User.class));
+
+        Mockito.doNothing().when(emailVerificationService).scheduleEmailConfirmation(Mockito.any(User.class));
+
+        // Act
+        Executable executable = () -> userService.createUser(firstName, lastName, email, password, repeatPassword);
+
+        // Assert
+        assertThrows(UserServiceException.class, executable);
+        Mockito.verify(emailVerificationService, Mockito.times(1)).scheduleEmailConfirmation(Mockito.any(User.class));
+        Mockito.verify(usersRepository, Mockito.times(1)).save(Mockito.any(User.class));
+
+    }
+
+    @Test
+    void testCreateUser_WhenUserCreated_ThenSchedulesEmailConfirmation() {
+        // Arrange
+        Mockito.when(usersRepository.save(Mockito.any(User.class))).thenReturn(true);
+        Mockito.doCallRealMethod().when(emailVerificationService)
+                .scheduleEmailConfirmation(Mockito.any(User.class));
+
+        // Act
+        userService.createUser(firstName, lastName, email, password, repeatPassword);
+
+        // Assert
+        Mockito.verify(emailVerificationService, Mockito.times(1)).scheduleEmailConfirmation(Mockito.any(User.class));
+    }
 
 }
