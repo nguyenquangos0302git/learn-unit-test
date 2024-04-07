@@ -25,7 +25,7 @@ Should be apply Test Driven Development
 
 Rate user's activity level (bad-average-good).
 Input:
-(1) the weekly time [min] spent doing cardio
+(1) the weekly time [min] spent doing cardio.
 (2) the number of workout sessions (1 workout = 45 minutes). Throw exception when any input below 0.
 Calculate the weekly total, divide by 7 to find the daily average.
 If < 20, return "bad".
